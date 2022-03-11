@@ -16,7 +16,6 @@ document.addEventListener('keydown', function(event) {
     if (keyName === "ArrowRight"){
         boxLeft += 10;
     }
-    //alert('keydown event\n\n' + 'key: ' + keyName);
     document.getElementById("box").style.top = boxTop + "px";
     document.getElementById("box").style.left = boxLeft + "px";
 });
